@@ -1,0 +1,8 @@
+<div>
+    <ul>
+        <li ng-repeat="task in tasks track by $index">
+            {{ task }}
+        </li>
+    </ul>
+    <p>Number of tasks: {{ ctrl.tasksLength }}</p>
+</div>
